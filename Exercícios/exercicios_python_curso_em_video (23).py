@@ -1,0 +1,7 @@
+print('-'*40)
+print('Exercício nº 011')
+print('-'*40)
+preco = float(input('Qual o preço do produto? R$'))
+nprec = preco - (preco * 5 / 100)
+print('O preço com desconto é de R${:.2f}'.format(nprec))
+print('-'*40)
