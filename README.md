@@ -1,4 +1,4 @@
-# Curso de Pyhton - Exercícios
+# Curso de Python - Exercícios
 
 Exercícios realizados durante o curso de Pythnon, ministrado pelo prof. Gustavo Guanabara 
 na plataforma Curso em Vídeo.
