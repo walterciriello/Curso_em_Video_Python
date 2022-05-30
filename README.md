@@ -10,4 +10,4 @@ Curso dividido em três Módulos:
 
 obs: Mundo 3 em andamento.
 
-Carga Horária Total: ***120 horas***
+Carga horária: ***120 horas***
