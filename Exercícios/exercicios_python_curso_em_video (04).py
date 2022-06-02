@@ -1,2 +1,2 @@
-name = input('What is your name? ')
-print('Welcome, {}!!!'.format(name))
+name = input("What's your name?\n").upper()
+print(f'Welcome, {name}!!!')
