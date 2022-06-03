@@ -3,9 +3,6 @@ times = ('Atlético-MG', 'Palmeiras', 'Fortaleza', 'Flamengo', 'Bragantino', 'Co
          'São Paulo', 'Juventude', 'América-MG', 'Santos', 'Bahia', 'Gremio', 'Sport-Recife',
          'Chapecoence')
 
-print('-'*40)
-print('==== CAMPEONATO BRASILEIRO - 2021 =====')
-print('-'*40)
 print(f'A lista de times: {times}')
 print('-'*40)
 print(f'Os primeiros 5 colocados são: {times[:5]}')
