@@ -1,3 +1,5 @@
+#verificando as carcterísticas da entrada
+
 x = input('Digite algo: ')
 print('O tipo primitivo dessse valor é: ', type(x))
 print('Só tem espaços? ', x.isspace())
@@ -8,7 +10,3 @@ print('Esta em letra maiúscula? ', x.isupper())
 print('Está em minúsculas? ', x.islower())
 print('Está capitalizada? ', x.istitle())
 print('É decimal? ', x.isdecimal())
-
-
-
-
