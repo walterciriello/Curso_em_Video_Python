@@ -1,12 +1,13 @@
-from random import shuffle
-print('-'*40)
-print('Exercício nº 020')
-print('-'*40)
-n1 = str(input('Primeiro aluno: '))
-n2 = str(input('Segundo aluno: '))
-n3 = str(input('Terceiro aluno: '))
-n4 = str(input('Quarto aluno: '))
-lista = [n1, n2, n3, n4]
-shuffle(lista)
-print('A ordem de apresentação será {}'. format(lista))
-print('-'*40)
+#Sorteando a ordem de apresentação dos alunos
+
+import random
+
+numero_de_alunos = int(input("Quantos alunos irão apresentar o trabalho?\n"))
+alunos = []
+
+for aluno in range(0, numero_de_alunos):
+    alunos.append(str(input("Digite o nome do aluno: ")))
+
+random.shuffle(alunos)
+
+print(f"A ordem de apresentação será {alunos}")
